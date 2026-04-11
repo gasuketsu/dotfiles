@@ -1,0 +1,36 @@
+if [ -f ~/.environment ]; then
+    export $(envsubst <~/.environment)
+fi
+
+export PIPENV_VENV_IN_PROJECT=1
+export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/config
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#54546d"
+
+if [ -d $HOME/.local/bin ] && ! echo $PATH | grep -q "$HOME/.local/bin"; then
+    export PATH=$HOME/.local/bin:$PATH
+fi
+
+eval "$(devbox global shellenv)"
+eval "$(sheldon source)"
+eval "$(mise activate zsh)"
+eval "$(zoxide init zsh)"
+
+if type fzf >/dev/null 2>&1; then
+    source <(fzf --zsh)
+
+    if [ -f ~/.local/share/fzf-git/fzf-git.sh ]; then
+        source ~/.local/share/fzf-git/fzf-git.sh
+    fi
+fi
+
+# aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+
+# functions
+fpath=($HOME/.config/zsh/functions "${fpath[@]}")
+autoload -Uz "$HOME/.config/zsh/functions"/*(.:t)
+compdef _mise mise
+
+eval "$(starship init zsh)"

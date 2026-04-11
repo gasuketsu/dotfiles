@@ -1,0 +1,13 @@
+[tools]
+
+[settings]
+experimental = true
+idiomatic_version_file_enable_tools = []
+go_set_gobin = false
+
+[settings.pipx]
+uvx = true
+
+[settings.python]
+uv_venv_auto = true
+compile = false

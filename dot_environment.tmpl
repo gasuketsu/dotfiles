@@ -1,0 +1,7 @@
+{{ if eq .chezmoi.os "linux" -}}
+{{   if (.chezmoi.kernel.osrelease | lower | contains "microsoft") -}}
+GALLIUM_DRIVER=d3d12
+LIBVA_DRIVER_NAME=d3d12
+EDITOR=nvim
+{{   end -}}
+{{ end -}}

@@ -11,7 +11,7 @@ Following tools must be available to apply/install dotfiles and dev tools.
 
 ```sh
 # install chezmoi
-sh -c "$(curl -fsLS get.chezmoi.io)"
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
 
 # install devbox
 curl -fsSL https://get.jetify.com/devbox | bash

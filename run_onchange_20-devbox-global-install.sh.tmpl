@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+# devbox.lock hash: {{ include "private_dot_local/private_share/devbox/global/default/devbox.json" | sha256sum }}
+
+devbox global install
+eval "$(devbox global shellenv --preserve-path-stack -r)" && hash -r

@@ -1,57 +1,47 @@
 # dotfiles
 
-Manages dotfiles with chezmoi
+Manages dotfiles and devbox global packages with chezmoi.
 
 ## Prerequisites
 
-Following tools must be available to apply/install dotfiles and dev tools.
-
-- [chezmoi](https://www.chezmoi.io/)
-- [devbox](https://www.jetify.com/devbox)
+[chezmoi](https://www.chezmoi.io/) must be installed into your host.
 
 ```sh
-# install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
-
-# install devbox
-curl -fsSL https://get.jetify.com/devbox | bash
 ```
 
 Also, several 'must-have' packages should be installed into your host as below.
 
 ### Debian/Ubuntu
 
-```
+```sh
 sudo apt install git zsh build-essential wl-clipboard curl zip unzip ncurses-term gettext-base
 ```
 
 ### openSUSE
 
-```
+```sh
 sudo zypper install -t pattern devel_basis
 sudo zypper install git zsh dirmngr gcc-c++ wl-clipboard curl zip unzip terminfo
 ```
 
 ### archlinux
 
-```
+```sh
 sudo pacman -S base-devel git zsh zlib-ng wl-clipboard curl zip unzip
 ```
 
 ## Steps to deploy
-
-### deploy dotfiles
 
 ```sh
 chezmoi init gasuketsu
 chezmoi apply
 ```
 
-Note that `.bashrc` is currently not managed, so make sure to source `~/.config/bash/config.bash`
-in your `.bashrc` to activate devbox tools and enable other configurations in bash.
+> [!NOTE]
+> [devbox](https://www.jetify.com/devbox) install script should be run when performing
+> `chezmoi apply` if not available.
 
-### deploy tools managed by devbox
-
-```sh
-devbox global install
-```
+> [!TIP]
+> `.bashrc` is currently not managed, so make sure to source `~/.config/bash/config.bash`
+> in your `.bashrc` to activate devbox tools and enable other configurations in bash.

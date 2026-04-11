@@ -39,7 +39,7 @@ chezmoi apply
 ```
 
 > [!NOTE]
-> [devbox](https://www.jetify.com/devbox) install script should be run when performing
+> [devbox](https://www.jetify.com/devbox) installation script will be run when performing
 > `chezmoi apply` if not available.
 
 > [!TIP]

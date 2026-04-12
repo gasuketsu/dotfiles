@@ -5,7 +5,6 @@
     "ripgrep@latest",
     "meson@latest",
     "ninja@latest",
-    "mise@latest",
     "jq@latest",
     "jless@latest",
     "difftastic@latest",
@@ -34,20 +33,14 @@
     "uv@latest",
     "bat@latest",
     "python@latest",
-    "dotter@latest",
     "plocate@latest",
     "fzf@latest",
-    "fzf-git-sh@latest",
-    "chezmoi@latest"
+    "fzf-git-sh@latest"
   ],
   "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
+    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
+      "test": ["echo \"Error: no test specified\" && exit 1"]
     }
   }
 }

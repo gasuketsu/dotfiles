@@ -12,7 +12,6 @@ fi
 
 eval "$(devbox global shellenv)"
 eval "$(sheldon source)"
-eval "$(mise activate zsh)"
 eval "$(zoxide init zsh)"
 
 if type fzf >/dev/null 2>&1; then

@@ -15,8 +15,6 @@
 	tool = nvim
 [difftool]
 	prompt = false
-[difftool "nvim"]
-	cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
 [difftool "difftastic"]
 	cmd = difft \"$LOCAL\" \"$REMOTE\"
 [diff]

@@ -502,8 +502,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-04-10T03:55:24Z",
-      "resolved": "github:NixOS/nixpkgs/9d29d5f667d7467f98efc31881e824fa586c927e?lastModified=1775793324&narHash=sha256-omax7atcZbol%2B6HJ2RLpP%2BZCFcPa5bZ65Hn71RufeWQ%3D"
+      "last_modified": "2026-04-11T06:17:25Z",
+      "resolved": "github:NixOS/nixpkgs/13043924aaa7375ce482ebe2494338e058282925?lastModified=1775888245&narHash=sha256-nwASzrRDD1JBEu%2Fo8ekKYEXm%2FoJW6EMCzCRdrwcLe90%3D"
     },
     "go@latest": {
       "last_modified": "2026-03-21T07:29:51Z",
@@ -1067,44 +1067,6 @@
             }
           ],
           "store_path": "/nix/store/9z1v3wyrxp6fpyzw21lcakd5w7aknzyc-nodejs-24.12.0"
-        }
-      }
-    },
-    "opencode@latest": {
-      "last_modified": "2026-04-06T08:39:25Z",
-      "resolved": "github:NixOS/nixpkgs/83e29f2b8791f6dec20804382fcd9a666d744c07#opencode",
-      "source": "devbox-search",
-      "version": "1.3.13",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/a0m1g2cyfyns0k2x14fijzbdjlhdmsav-opencode-1.3.13",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/a0m1g2cyfyns0k2x14fijzbdjlhdmsav-opencode-1.3.13"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/1mkrxcw376jpvp1i59s8zaga5p8pajq1-opencode-1.3.13",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/1mkrxcw376jpvp1i59s8zaga5p8pajq1-opencode-1.3.13"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/d4pg0m8xbr9pwvdw14r5xj5p04wjbjyf-opencode-1.3.13",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/d4pg0m8xbr9pwvdw14r5xj5p04wjbjyf-opencode-1.3.13"
         }
       }
     },

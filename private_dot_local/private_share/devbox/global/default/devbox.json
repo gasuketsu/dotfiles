@@ -24,7 +24,6 @@
     "zoxide@latest",
     "neovim@latest",
     "prettier@latest",
-    "opencode@latest",
     "httpie@latest",
     "ast-grep@latest",
     "ruff@latest",

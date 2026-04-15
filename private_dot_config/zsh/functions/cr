@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
-ghq-cd() {
+cr() {
     cd "$(ghq list --full-path | fzf)"
 }

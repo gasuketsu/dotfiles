@@ -10,6 +10,10 @@ if [ -d $HOME/.local/bin ] && ! echo $PATH | grep -q "$HOME/.local/bin"; then
     export PATH=$HOME/.local/bin:$PATH
 fi
 
+if [ -d $HOME/.bun/bin ] && ! echo $PATH | grep -q "$HOME/.bun/bin"; then
+    export PATH=$HOME/.bun/bin:$PATH
+fi
+
 eval "$(devbox global shellenv)"
 eval "$(sheldon source)"
 eval "$(zoxide init zsh)"

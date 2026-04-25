@@ -4,6 +4,7 @@
     "ast-grep@latest",
     "bat@latest",
     "biome@latest",
+    "bun@latest",
     "conan@latest",
     "difftastic@latest",
     "fd@latest",

@@ -12,10 +12,13 @@
 [mergetool "nvim"]
 	cmd = nvim -f -c \"DiffviewOpen\"
 [merge]
+	conflictstyle = zdiff3
 	tool = nvim
 [difftool]
 	prompt = false
 [difftool "difftastic"]
 	cmd = difft \"$LOCAL\" \"$REMOTE\"
+[difftool "nvim"]
+	cmd = nvim -f -c \"DiffviewOpen\"
 [diff]
 	tool = difftastic

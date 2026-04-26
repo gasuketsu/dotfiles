@@ -257,6 +257,54 @@
         }
       }
     },
+    "delta@latest": {
+      "last_modified": "2026-03-29T14:22:01Z",
+      "resolved": "github:NixOS/nixpkgs/c397ef6af68c018462d786e1b65384abc472a907#delta",
+      "source": "devbox-search",
+      "version": "0.19.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vxcnvkhhqgwwr6lslxj74w184j4p3da4-delta-0.19.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vxcnvkhhqgwwr6lslxj74w184j4p3da4-delta-0.19.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/84xxn8cbbfb5vg154prdb1vsf0lm17zh-delta-0.19.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/84xxn8cbbfb5vg154prdb1vsf0lm17zh-delta-0.19.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zzn7irqi4cs1gj9s18zy6xp30q3ivpfi-delta-0.19.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zzn7irqi4cs1gj9s18zy6xp30q3ivpfi-delta-0.19.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kkyz1159d5s30abl0nmpms4z82y05a1w-delta-0.19.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kkyz1159d5s30abl0nmpms4z82y05a1w-delta-0.19.2"
+        }
+      }
+    },
     "difftastic@latest": {
       "last_modified": "2026-03-21T07:29:51Z",
       "resolved": "github:NixOS/nixpkgs/09061f748ee21f68a089cd5d91ec1859cd93d0be#difftastic",
@@ -794,6 +842,54 @@
             }
           ],
           "store_path": "/nix/store/fc13hvlj7541i1xmwdka7f61qicdzr5a-jq-1.8.1-bin"
+        }
+      }
+    },
+    "lazygit@latest": {
+      "last_modified": "2026-04-16T08:46:55Z",
+      "resolved": "github:NixOS/nixpkgs/b86751bc4085f48661017fa226dee99fab6c651b#lazygit",
+      "source": "devbox-search",
+      "version": "0.61.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b5wcg4gz3xnj4x2l5gj16h8mf2x2iz4a-lazygit-0.61.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b5wcg4gz3xnj4x2l5gj16h8mf2x2iz4a-lazygit-0.61.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8lmkfhsz6yz528ssqzkqxmwjxc67l231-lazygit-0.61.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8lmkfhsz6yz528ssqzkqxmwjxc67l231-lazygit-0.61.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n3pfisj1zrxcc48fk70i25v0s3s4wapf-lazygit-0.61.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n3pfisj1zrxcc48fk70i25v0s3s4wapf-lazygit-0.61.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vgr20aqhf38qsx1mkcw6s6z3dfc4q05d-lazygit-0.61.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vgr20aqhf38qsx1mkcw6s6z3dfc4q05d-lazygit-0.61.1"
         }
       }
     },

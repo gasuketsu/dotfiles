@@ -6,12 +6,8 @@ export PIPENV_VENV_IN_PROJECT=1
 export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/config
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#54546d"
 
-if [ -d $HOME/.local/bin ] && ! echo $PATH | grep -q "$HOME/.local/bin"; then
+if ! echo $PATH | grep -q "$HOME/.local/bin"; then
     export PATH=$HOME/.local/bin:$PATH
-fi
-
-if [ -d $HOME/.bun/bin ] && ! echo $PATH | grep -q "$HOME/.bun/bin"; then
-    export PATH=$HOME/.bun/bin:$PATH
 fi
 
 eval "$(devbox global shellenv)"

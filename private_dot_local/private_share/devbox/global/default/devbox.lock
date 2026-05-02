@@ -893,6 +893,54 @@
         }
       }
     },
+    "luajitPackages.tree-sitter-cli@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#luajitPackages.tree-sitter-cli",
+      "source": "devbox-search",
+      "version": "0.26.5-1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6q781vsn3qj5apxcnzrq0b4cnqc10gqp-luajit2.1-tree-sitter-cli-0.26.5-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6q781vsn3qj5apxcnzrq0b4cnqc10gqp-luajit2.1-tree-sitter-cli-0.26.5-1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mhpi6jllivmynh1i7h9b4954z8pfngrn-luajit2.1-tree-sitter-cli-0.26.5-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mhpi6jllivmynh1i7h9b4954z8pfngrn-luajit2.1-tree-sitter-cli-0.26.5-1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gx2q00vd830w7alr4sck4skrl9ksyxy2-luajit2.1-tree-sitter-cli-0.26.5-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gx2q00vd830w7alr4sck4skrl9ksyxy2-luajit2.1-tree-sitter-cli-0.26.5-1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f2w5486k38x4a730sm7vs3y9hs8infzb-luajit2.1-tree-sitter-cli-0.26.5-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f2w5486k38x4a730sm7vs3y9hs8infzb-luajit2.1-tree-sitter-cli-0.26.5-1"
+        }
+      }
+    },
     "meson@latest": {
       "last_modified": "2026-04-23T13:07:47Z",
       "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#meson",

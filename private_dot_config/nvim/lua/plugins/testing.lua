@@ -5,7 +5,6 @@ return {
             "nvim-neotest/nvim-nio",
             "nvim-lua/plenary.nvim",
             "antoinemadec/FixCursorHold.nvim",
-            "nvim-treesitter/nvim-treesitter",
             -- providers
             "nvim-neotest/neotest-go", -- golang
             "nvim-neotest/neotest-python", -- python

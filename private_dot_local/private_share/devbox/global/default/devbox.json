@@ -39,7 +39,8 @@
     "uv@latest",
     "yamlfmt@latest",
     "zellij@latest",
-    "zoxide@latest"
+    "zoxide@latest",
+    "luajitPackages.tree-sitter-cli@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],

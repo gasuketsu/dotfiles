@@ -108,7 +108,6 @@ return {
                 },
                 { "<leader>scd", "<cmd>TSContextDisable<cr>", desc = "Disable treesitter context" },
                 { "<leader>sce", "<cmd>TSContextEnable<cr>", desc = "Enable treesitter context" },
-                { "<leader>su", "<cmd>TSUpdate<cr>", desc = "Update treesitter parsers" },
                 -- group "test"
                 { "<leader>t", group = "test" },
                 { "<leader>tc", neotest.output_panel.clear, desc = "Clear test output panel" },

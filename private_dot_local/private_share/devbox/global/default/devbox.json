@@ -17,6 +17,7 @@
     "jless@latest",
     "jq@latest",
     "lazygit@latest",
+    "luajitPackages.tree-sitter-cli@latest",
     "meson@latest",
     "neovim@latest",
     "ninja@latest",
@@ -39,8 +40,7 @@
     "uv@latest",
     "yamlfmt@latest",
     "zellij@latest",
-    "zoxide@latest",
-    "luajitPackages.tree-sitter-cli@latest"
+    "zoxide@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],

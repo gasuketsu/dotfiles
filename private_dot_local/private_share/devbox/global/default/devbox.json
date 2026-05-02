@@ -18,6 +18,7 @@
     "jq@latest",
     "lazygit@latest",
     "meson@latest",
+    "neovim@latest",
     "ninja@latest",
     "nodejs@24",
     "pipenv@latest",

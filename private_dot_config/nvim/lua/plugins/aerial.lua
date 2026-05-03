@@ -7,9 +7,10 @@ return {
         },
         config = function()
             require("aerial").setup({
-                backends = { "lsp", "treesitter", "markdown", "man" },
+                backends = { "lsp", "treesitter", "markdown", "asciidoc", "man" },
                 layout = {
-                    min_width = { 15, 0.1 },
+                    max_width = { 20, 0.2 },
+                    default_direction = "prefer_left",
                 },
                 filter_kind = false,
                 on_attach = function(bufnr)

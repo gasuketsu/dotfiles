@@ -4,13 +4,7 @@ Manages dotfiles and devbox global packages with chezmoi.
 
 ## Prerequisites
 
-[chezmoi](https://www.chezmoi.io/) must be installed into your host.
-
-```sh
-sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
-```
-
-Also, several 'must-have' packages should be installed into your host as below.
+Install several 'must-have' packages into your host as below.
 
 ### Debian/Ubuntu
 
@@ -29,6 +23,12 @@ sudo zypper install git zsh dirmngr gcc-c++ wl-clipboard curl zip unzip terminfo
 
 ```sh
 sudo pacman -S base-devel git zsh zlib-ng wl-clipboard curl zip unzip
+```
+
+Also, [chezmoi](https://www.chezmoi.io/) must be installed into your host.
+
+```sh
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
 ```
 
 ## Steps to deploy

@@ -23,9 +23,10 @@ vim.opt.listchars = {
 }
 vim.opt.ambiwidth = "single"
 
-vim.opt.cmdheight = 2
+vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.showcmd = true
+vim.opt.showmode = false
 vim.opt.display = "lastline"
 vim.opt.updatetime = 300
 vim.opt.signcolumn = "yes"

@@ -4,24 +4,30 @@ return {
         dependencies = {
             { "stevearc/conform.nvim" },
             { "nvim-neotest/neotest" },
-            { "echasnovski/mini.icons", version = false },
+            { "nvim-mini/mini.icons", version = false },
         },
         config = function()
             local wk = require("which-key")
             local conform = require("conform")
             local neotest = require("neotest")
             local hc = require("nvim-highlight-colors")
-            local snacks = require("snacks")
             -- normal mode keymaps with <leader>
             wk.add({
                 -- group "toggle'
                 { "<leader><space>", group = "toggle" },
+                {
+                    "<leader><space>L",
+                    function()
+                        vim.lsp.codelens.enable(not vim.lsp.codelens.is_enabled())
+                    end,
+                    desc = "Toggle CodeLens",
+                },
                 { "<leader><space>c", hc.toggle, desc = "Toggle highlight colors" },
                 { "<leader><space>e", "<cmd>Neotree toggle<cr>", desc = "Toggle file explorer" },
                 { "<leader><space>l", "<cmd>LLToggle!<cr>", desc = "Toggle loclist" },
                 { "<leader><space>o", "<cmd>AerialToggle!<cr>", desc = "Toggle outline" },
                 { "<leader><space>q", "<cmd>QFToggle!<cr>", desc = "Toggle quickfix" },
-                { "<leader><space>t", snacks.terminal.toggle, desc = "Toggle Terminal" },
+                { "<leader><space>t", "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
                 -- diagnostics
                 {
                     "<leader>d",
@@ -59,7 +65,7 @@ return {
                 { "<leader>gd", group = "diff" },
                 { "<leader>gdi", "<cmd>Gitsigns diffthis<cr>", desc = "View diff from index" },
                 { "<leader>gdh", "<cmd>Gitsigns diffthis HEAD<cr>", desc = "View diff from HEAD" },
-                { "<leader>gg", "<cmd>Neogit<cr>", desc = "Open Neogit" },
+                { "<leader>gg", "<cmd>LazyGit<cr>", desc = "Open LazyGit" },
                 { "<leader>gh", group = "hunk" },
                 { "<leader>ghR", "<cmd>Gitsigns reset_buffer<cr>", desc = "Reset hunks in buffer" },
                 { "<leader>ghS", "<cmd>Gitsigns stage_buffer<cr>", desc = "Stage hunks in buffer" },

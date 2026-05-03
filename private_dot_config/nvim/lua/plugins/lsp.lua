@@ -23,7 +23,7 @@ return {
             })
 
             local on_attach = function(_, _) -- client, bufnr
-                vim.lsp.codelens.enable(true)
+                vim.lsp.codelens.enable(false)
             end
 
             vim.lsp.config("*", {

@@ -12,14 +12,16 @@ end
 vim.opt.runtimepath:prepend(lazypath)
 vim.g.mapleader = " "
 
-require("rc.options")
-require("rc.filetype")
+require("10_options")
+require("20_filetype")
 
 require("lazy").setup({
     spec = {
-        { import = "plugins" },
+        { import = "30_plugins" },
     },
     rocks = {
         enabled = false,
     },
 })
+
+require("40_keymap")

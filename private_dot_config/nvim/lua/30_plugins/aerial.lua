@@ -10,7 +10,6 @@ return {
                 backends = { "lsp", "treesitter", "markdown", "asciidoc", "man" },
                 layout = {
                     max_width = { 20, 0.2 },
-                    default_direction = "prefer_left",
                 },
                 filter_kind = false,
                 on_attach = function(bufnr)

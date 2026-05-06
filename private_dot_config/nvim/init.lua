@@ -24,4 +24,4 @@ require("lazy").setup({
     },
 })
 
-require("40_keymap")
+require("40_keymaps")

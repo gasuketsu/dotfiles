@@ -28,6 +28,7 @@
     "prettier@latest",
     "python@latest",
     "ripgrep@latest",
+    "rustfmt@latest",
     "scc@latest",
     "sheldon@latest",
     "shellcheck@latest",

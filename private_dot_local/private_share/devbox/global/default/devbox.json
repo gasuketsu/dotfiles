@@ -26,7 +26,6 @@
     "plocate@latest",
     "poetry@latest",
     "prettier@latest",
-    "python@latest",
     "ripgrep@latest",
     "rustfmt@latest",
     "scc@latest",

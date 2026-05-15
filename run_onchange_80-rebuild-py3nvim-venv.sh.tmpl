@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
-# devbox.lock hash: {{ include "private_dot_local/private_share/devbox/global/default/devbox.json" | sha256sum }}
+# pyproject.toml hash: {{ include "private_dot_config/nvim/py3nvim/pyproject.toml" | sha256sum }}
+# uv.lock hash: {{ include "private_dot_config/nvim/py3nvim/uv.lock" | sha256sum }}
 CWD=$PWD
 
 # make sure devbox global is activated

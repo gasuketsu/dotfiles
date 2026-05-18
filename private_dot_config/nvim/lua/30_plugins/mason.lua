@@ -20,7 +20,6 @@ return {
                     "gotests",
                     "iferr",
                     "impl",
-                    "prettier",
                     "ruff",
                     "stylua",
                     "yamlfmt",

@@ -1,8 +1,6 @@
 #! /usr/bin/env bash
 
-# make sure mise is activated
-MISE_BIN="$HOME/.local/bin/mise"
-
-eval "$($MISE_BIN activate bash)"
+# make sure devbox global is activated
+eval "$(devbox global shellenv)"
 
 bat cache --build

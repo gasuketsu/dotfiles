@@ -39,8 +39,7 @@ chezmoi apply
 ```
 
 > [!NOTE]
-> [devbox](https://www.jetify.com/devbox) installation script will be run when performing
-> `chezmoi apply` if not available.
+> [mise](https://mise.jdx.dev) will be installed in your first `chezmoi apply` if it is not available yet.
 
 > [!TIP]
 > `.bashrc` is currently not managed, so make sure to source `~/.config/bash/config.bash`

@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+# mise/config.toml hash: {{ include "private_dot_config/mise/config.toml" | sha256sum }}
+
+MISE_BIN="$HOME/.local/bin/mise"
+
+# make sure mise is activated
+eval "$($MISE_BIN activate bash)"
+
+$MISE_BIN install

@@ -3,9 +3,10 @@
 # pyproject.toml hash: {{ include "private_dot_config/nvim/py3nvim/pyproject.toml" | sha256sum }}
 # uv.lock hash: {{ include "private_dot_config/nvim/py3nvim/uv.lock" | sha256sum }}
 CWD=$PWD
+MISE_BIN="$HOME/.local/bin/mise"
 
 # make sure devbox global is activated
-eval "$(devbox global shellenv)"
+eval "$($MISE_BIN activate bash)"
 
 cd "$HOME/.config/nvim/py3nvim" || exit
 uv venv --clear

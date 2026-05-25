@@ -112,7 +112,6 @@ vim.keymap.set("n", "T", neotest.output.open, { desc = "Display output of test" 
 vim.keymap.set("n", "Y", "y$", { desc = "Yank to end of the line" })
 
 -- group "goto/comment"
-vim.keymap.set("n", "g", "", { desc = "Goto/Comment" })
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "Go to decleration" })
 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to implementation" })
 vim.keymap.set("n", "gh", vim.lsp.buf.signature_help, { desc = "Go to signature help" })

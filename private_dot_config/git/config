@@ -13,6 +13,7 @@
 	true-color = always
 	navigate = true
 	line-numbers = true
+	side-by-side = true
 	syntax-theme = kanagawa
 	line-numbers-plus-style = "#76946A"
 	line-numbers-minus-style = "#C34043"

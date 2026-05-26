@@ -18,8 +18,8 @@
 	line-numbers-minus-style = "#C34043"
 	plus-style = "syntax #2B3328"
 	minus-style = "syntax #43242B"
-	plus-emph-style = "syntax #76946A"
-	minus-emph-style = "syntax #C34043"
+	plus-emph-style = "syntax #4D5B47"
+	minus-emph-style = "syntax #743E4A"
 [alias]
 	glog = log --graph --decorate --date=iso
 	root = rev-parse --show-toplevel

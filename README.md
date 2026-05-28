@@ -39,6 +39,9 @@ chezmoi apply
 ```
 
 > [!NOTE]
+> Depending on your distro/environment, you may need to add `$HOME/.local/bin` to your PATH to run chezmoi.
+
+> [!NOTE]
 > [devbox](https://www.jetify.com/devbox) installation script will be run when performing
 > `chezmoi apply` if not available.
 

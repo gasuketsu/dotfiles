@@ -550,8 +550,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-05-22T01:51:30Z",
-      "resolved": "github:NixOS/nixpkgs/6dedf69f94d03cbe7bdde106f2d4c23ae2a853bf?lastModified=1779414690"
+      "last_modified": "2026-05-27T10:28:13Z",
+      "resolved": "github:NixOS/nixpkgs/4100e830e085863741bc69b156ec4ccd53ab5be0?lastModified=1779877693&narHash=sha256-NOF9NAREhxr50bbBfVcVOq%2BArCMSoe8dP79Pk2uyARk%3D"
     },
     "go@latest": {
       "last_modified": "2026-04-23T13:07:47Z",
@@ -1688,6 +1688,54 @@
             }
           ],
           "store_path": "/nix/store/as4nxfj59yqyi5ppv55vj0aacz610jfl-uv-0.11.14"
+        }
+      }
+    },
+    "viu@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#viu",
+      "source": "devbox-search",
+      "version": "1.6.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/92lh9d6wyy4z4725cpxsv9ic32bwzqyg-viu-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/92lh9d6wyy4z4725cpxsv9ic32bwzqyg-viu-1.6.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kr1wcrbcb2xq8kv9j4mx8yfya3s15a6s-viu-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kr1wcrbcb2xq8kv9j4mx8yfya3s15a6s-viu-1.6.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ldaaidbwbim2m4baa7b0dwx079idvqv8-viu-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ldaaidbwbim2m4baa7b0dwx079idvqv8-viu-1.6.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gnpi5n4ahww1jdzdr3h6lkmyyw4chs80-viu-1.6.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gnpi5n4ahww1jdzdr3h6lkmyyw4chs80-viu-1.6.1"
         }
       }
     },

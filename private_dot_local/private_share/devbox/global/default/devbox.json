@@ -32,6 +32,7 @@
     "shfmt@latest",
     "starship@latest",
     "uv@latest",
+    "viu@latest",
     "yamlfmt@latest",
     "zellij@latest",
     "zoxide@latest"

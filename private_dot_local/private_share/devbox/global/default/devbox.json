@@ -21,7 +21,6 @@
     "neovim@latest",
     "ninja@latest",
     "nodejs@24",
-    "pipx@latest",
     "plocate@latest",
     "python@latest",
     "ripgrep@latest",

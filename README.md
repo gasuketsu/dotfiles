@@ -42,8 +42,8 @@ chezmoi apply
 > Depending on your distro/environment, you may need to add `$HOME/.local/bin` to your PATH to run chezmoi.
 
 > [!NOTE]
-> [devbox](https://www.jetify.com/devbox) installation script will be run when performing
-> `chezmoi apply` if not available.
+> [Determinate Nix](https://determinate.systems/nix/) and [Devbox](https://www.jetify.com/devbox) will be
+> installed during initial `chezmoi apply` if they are not available.
 
 > [!TIP]
 > `.bashrc` is currently not managed, so make sure to source `~/.config/bash/config.bash`

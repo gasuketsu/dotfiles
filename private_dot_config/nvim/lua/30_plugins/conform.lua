@@ -16,6 +16,7 @@ return {
                     lua = { "stylua" },
                     markdown = { "prettier" },
                     python = { "ruff_format" },
+                    ruby = { "rubyfmt" },
                     rust = { "rustfmt" },
                     sh = { "shfmt" },
                     typescript = { "biome" },

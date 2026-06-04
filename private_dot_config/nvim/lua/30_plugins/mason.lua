@@ -21,6 +21,7 @@ return {
                     "iferr",
                     "impl",
                     "prettier",
+                    "rubyfmt",
                     "ruff",
                     "stylua",
                     "yamlfmt",

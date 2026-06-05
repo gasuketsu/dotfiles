@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+if ! command -v nix >/dev/null 2>&1; then
+    curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+
+{{ if eq .chezmoi.os "linux" }}
+{{   if contains .chezmoi.osRelease.id "suse" }}
+    if ! grep -q "ssl-cert-file" /etc/nix/nix.custom.conf 2>/dev/null; then
+        echo "ssl-cert-file = /etc/ssl/ca-bundle.pem" | sudo tee -a /etc/nix/nix.custom.conf
+    fi
+{{   end }}
+{{ end }}
+fi

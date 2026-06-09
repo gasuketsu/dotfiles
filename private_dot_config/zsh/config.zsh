@@ -30,5 +30,6 @@ alias ip='ip --color=auto'
 # functions
 fpath=($HOME/.config/zsh/functions "${fpath[@]}")
 autoload -Uz "$HOME/.config/zsh/functions"/*(.:t)
+autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"

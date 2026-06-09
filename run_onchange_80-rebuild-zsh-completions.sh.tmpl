@@ -3,5 +3,6 @@
 # chezmoi version: {{ .chezmoi.version.version }}
 # devbox version: {{ output "devbox" "version" }}
 
-chezmoi completion zsh --output="$HOME/.config/zsh/functions/_chezmoi"
-devbox completion zsh >"$HOME/.config/zsh/functions/_devbox"
+mkdir -p "$HOME/.config/zsh/completions"
+chezmoi completion zsh --output="$HOME/.config/zsh/completions/_chezmoi"
+devbox completion zsh >"$HOME/.config/zsh/completions/_devbox"

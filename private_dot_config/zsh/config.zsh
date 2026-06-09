@@ -23,13 +23,10 @@ if type fzf >/dev/null 2>&1; then
 fi
 
 # aliases
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias ip='ip --color=auto'
+source ~/.config/zsh/aliases.zsh
 
-# functions
-fpath=($HOME/.config/zsh/functions "${fpath[@]}")
-autoload -Uz "$HOME/.config/zsh/functions"/*(.:t)
+# completions
+fpath=($HOME/.config/zsh/completions "${fpath[@]}")
 autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"

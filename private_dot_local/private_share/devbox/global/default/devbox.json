@@ -22,7 +22,6 @@
     "ninja@latest",
     "nodejs@24",
     "plocate@latest",
-    "python@latest",
     "ripgrep@latest",
     "rustfmt@latest",
     "scc@latest",

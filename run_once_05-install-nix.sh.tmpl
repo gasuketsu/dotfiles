@@ -1,12 +1,14 @@
 #! /usr/bin/env bash
 
-if ! command -v nix >/dev/null 2>&1; then
-    args=("--no-confirm")
-
-{{- if (eq .chezmoi.os "linux") }}
-{{-   if and (index .chezmoi.osRelease "idLike") (contains "suse" .chezmoi.osRelease.idLike) }}
-    args+=("--ssl-cert-file /etc/ssl/ca-bundle.pem")
-{{-   end }}
-{{- end }}
-    curl -fsSL https://install.determinate.systems/nix | sh -s -- install ${args[@]}
+if command -v nix >/dev/null 2>&1; then
+    echo "nix is already installed"
+    exit 0
 fi
+
+args=("--no-confirm")
+
+{{- if .isSUSE }}
+args+=("--ssl-cert-file /etc/ssl/ca-bundle.pem")
+{{- end }}
+
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install ${args[@]}

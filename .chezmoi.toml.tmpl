@@ -1,2 +1,12 @@
+{{- $isSUSE := false -}}
+{{- $isWSL := false -}}
+{{- if eq .chezmoi.os "linux" -}}
+{{-   $isSUSE = (index .chezmoi.osRelease "idLike" | contains "suse") -}}
+{{-   $isWSL = (.chezmoi.kernel.osrelease | lower | contains "microsoft") -}}
+{{- end -}}
+[data]
+isSUSE = {{ $isSUSE }}
+isWSL = {{ $isWSL }}
+
 [diff]
     exclude = ["scripts"]

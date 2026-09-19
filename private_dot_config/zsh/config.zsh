@@ -1,6 +1,9 @@
 if [ -f ~/.environment ]; then
     export $(envsubst <~/.environment)
 fi
+if [ -f ~/.environment.local ]; then
+    export $(envsubst <~/.environment.local)
+fi
 export KEYTIMEOUT=120
 export PIPENV_VENV_IN_PROJECT=1
 export FZF_DEFAULT_OPTS_FILE=~/.config/fzf/config
@@ -14,13 +17,7 @@ eval "$(devbox global shellenv)"
 eval "$(sheldon source)"
 eval "$(zoxide init zsh)"
 
-if type fzf >/dev/null 2>&1; then
-    source <(fzf --zsh)
-
-    if [ -f "$DEVBOX_PACKAGES_DIR/share/fzf-git-sh/fzf-git.sh" ]; then
-        source $DEVBOX_PACKAGES_DIR/share/fzf-git-sh/fzf-git.sh
-    fi
-fi
+source <(fzf --zsh)
 
 # aliases
 source ~/.config/zsh/aliases.zsh

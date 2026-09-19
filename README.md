@@ -31,7 +31,7 @@ Also, install [chezmoi](https://www.chezmoi.io/) into your host.
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b ~/.local/bin
 ```
 
-## Steps to deploy
+## Steps to apply
 
 ```sh
 chezmoi init gasuketsu

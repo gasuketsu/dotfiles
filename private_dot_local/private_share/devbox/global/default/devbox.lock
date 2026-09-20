@@ -271,54 +271,6 @@
         }
       }
     },
-    "delta@latest": {
-      "last_modified": "2026-08-27T07:16:00Z",
-      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#delta",
-      "source": "devbox-search",
-      "version": "0.19.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/1nlrkly7yrf8gw2h2v87qgjym0pcbvlh-delta-0.19.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/1nlrkly7yrf8gw2h2v87qgjym0pcbvlh-delta-0.19.2"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/pwlkc4lrv3v3hh5bpzgs6vyqx5h6fs99-delta-0.19.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/pwlkc4lrv3v3hh5bpzgs6vyqx5h6fs99-delta-0.19.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/l2qi2192h1iap9m7qyzz3911kb1kg0vd-delta-0.19.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/l2qi2192h1iap9m7qyzz3911kb1kg0vd-delta-0.19.2"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/b1rpsfhi9lh7l0glyy9cmz6gclccr0kr-delta-0.19.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/b1rpsfhi9lh7l0glyy9cmz6gclccr0kr-delta-0.19.2"
-        }
-      }
-    },
     "direnv@latest": {
       "last_modified": "2026-08-27T07:16:00Z",
       "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#direnv",
@@ -560,8 +512,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-09-17T08:15:29Z",
-      "resolved": "github:NixOS/nixpkgs/a32edd7654519351e48e80372a928df336394670?lastModified=1789632929"
+      "last_modified": "2026-09-18T09:35:58Z",
+      "resolved": "github:NixOS/nixpkgs/0a3468a402c449992505b6a9fc5b06580141b750?lastModified=1789724158"
     },
     "go@latest": {
       "last_modified": "2026-08-27T07:16:00Z",
@@ -700,6 +652,44 @@
             }
           ],
           "store_path": "/nix/store/dar0px8njq3gdz4a33ry0hh7d2955kl5-python3.14-httpie-3.2.4"
+        }
+      }
+    },
+    "hunk@latest": {
+      "last_modified": "2026-08-27T07:16:00Z",
+      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#hunk",
+      "source": "devbox-search",
+      "version": "0.19.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/93zjdjlgzrynci7yqa6xnmbmdas1zn60-hunk-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/93zjdjlgzrynci7yqa6xnmbmdas1zn60-hunk-0.19.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w9zxjj2cyqrdwyc41a92ii2l57cw74yw-hunk-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w9zxjj2cyqrdwyc41a92ii2l57cw74yw-hunk-0.19.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s8r78gv14i0d65pk40lvssmkmmabzay5-hunk-0.19.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s8r78gv14i0d65pk40lvssmkmmabzay5-hunk-0.19.0"
         }
       }
     },

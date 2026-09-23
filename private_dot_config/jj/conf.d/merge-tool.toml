@@ -1,0 +1,5 @@
+[ui]
+merge-editor = "nvim"
+
+[merge-tools.nvim]
+merge-args = ["-c", "CodeDiff"]

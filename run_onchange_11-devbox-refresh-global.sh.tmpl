@@ -2,5 +2,4 @@
 
 # devbox.lock hash: {{ include "private_dot_local/private_share/devbox/global/default/devbox.json" | sha256sum }}
 
-eval "$(devbox global shellenv)"
-refresh-global
+eval "$(devbox global shellenv --preserve-path-stack -r)" && hash -r

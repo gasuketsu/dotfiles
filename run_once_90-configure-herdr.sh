@@ -4,3 +4,4 @@
 eval "$(devbox global shellenv)"
 
 herdr completion zsh >~/.config/zsh/completions/_herdr
+herdr integration install opencode

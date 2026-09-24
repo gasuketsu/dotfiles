@@ -9,4 +9,4 @@ name = "kanagawa"
 auto_switch = false
 
 [keys]
-prefix = "ctrl+\\"
+prefix = "ctrl+;"

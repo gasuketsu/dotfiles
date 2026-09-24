@@ -27,7 +27,6 @@
     "nodejs@24",
     "opencode@latest",
     "plocate@latest",
-    "python@latest",
     "ripgrep@latest",
     "rustfmt@latest",
     "scc@latest",

@@ -5,5 +5,14 @@ vim.api.nvim_clear_autocmds({
 })
 vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
     pattern = { "*.mod", "*.MOD" },
-    command = "set filetype=gomod",
+    callback = function()
+        vim.bo.filetype = "gomod"
+    end,
+})
+-- go template files
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+    pattern = { "*.gotmpl", "*.go.tmpl", "*.tmpl" },
+    callback = function()
+        vim.bo.filetype = "gotmpl"
+    end,
 })

@@ -19,6 +19,7 @@ return {
                     "fish",
                     "go",
                     "gomod",
+                    "gotmpl",
                     "groovy",
                     "hjson",
                     "html",

@@ -24,7 +24,7 @@
     "luajitPackages.tree-sitter-cli@latest",
     "neovim@latest",
     "ninja@latest",
-    "nodejs@24",
+    "nodejs@26",
     "opencode@latest",
     "plocate@latest",
     "ripgrep@latest",

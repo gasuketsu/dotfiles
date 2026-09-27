@@ -1058,42 +1058,42 @@
         }
       }
     },
-    "nodejs@24": {
+    "nodejs@26": {
       "last_modified": "2026-09-27T03:42:02Z",
       "plugin_version": "0.0.5",
-      "resolved": "github:NixOS/nixpkgs/8d5d270900d3fc75655ea2d9d248b234f6631439#nodejs",
+      "resolved": "github:NixOS/nixpkgs/8d5d270900d3fc75655ea2d9d248b234f6631439#nodejs_26",
       "source": "devbox-search",
-      "version": "24.20.0",
+      "version": "26.10.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/7pn7zw2sciv3fih9l4xpyvx0q8hlrr0w-nodejs-24.20.0",
+              "path": "/nix/store/xs1l2nzllqp7imnhpd2n6cm0m70yzp10-nodejs-26.10.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/7pn7zw2sciv3fih9l4xpyvx0q8hlrr0w-nodejs-24.20.0"
+          "store_path": "/nix/store/xs1l2nzllqp7imnhpd2n6cm0m70yzp10-nodejs-26.10.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/hnizp3p9k7gix8iqlip1pai9fy417ygy-nodejs-24.20.0",
+              "path": "/nix/store/is5cipy5r2l69z98ikz5wrglbxq761hj-nodejs-26.10.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/hnizp3p9k7gix8iqlip1pai9fy417ygy-nodejs-24.20.0"
+          "store_path": "/nix/store/is5cipy5r2l69z98ikz5wrglbxq761hj-nodejs-26.10.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/v6wsd9nyglmwh32yn7w8z11dq9cksg4m-nodejs-24.20.0",
+              "path": "/nix/store/x9iqbiwqaw81lvkpirikqm13cp6whn9s-nodejs-26.10.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/v6wsd9nyglmwh32yn7w8z11dq9cksg4m-nodejs-24.20.0"
+          "store_path": "/nix/store/x9iqbiwqaw81lvkpirikqm13cp6whn9s-nodejs-26.10.0"
         }
       }
     },

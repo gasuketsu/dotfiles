@@ -13,7 +13,7 @@
     "fzf@latest",
     "ghq@latest",
     "go@latest",
-    "herdr@latest",
+    "herdr@0.9.0",
     "httpie@latest",
     "hunk@latest",
     "jj-starship@latest",

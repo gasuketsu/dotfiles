@@ -1,7 +1,7 @@
 {{- $isSUSE := false -}}
 {{- $isWSL := false -}}
 {{- if eq .chezmoi.os "linux" -}}
-{{-   $isSUSE = (index .chezmoi.osRelease "idLike" | contains "suse") -}}
+{{-   $isSUSE = (index .chezmoi.osRelease "id" | lower | contains "suse") -}}
 {{-   $isWSL = (.chezmoi.kernel.osrelease | lower | contains "microsoft") -}}
 {{- end -}}
 [data]

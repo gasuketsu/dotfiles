@@ -5,6 +5,7 @@
     "bat@latest",
     "biome@latest",
     "bun@latest",
+    "bottom@latest",
     "clang-tools@latest",
     "conan@latest",
     "direnv@latest",

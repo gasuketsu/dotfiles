@@ -18,8 +18,6 @@ return {
                 },
             })
             vim.g.kanagawa_lualine_bold = true
-
-            vim.cmd("colorscheme kanagawa")
         end,
     },
 }

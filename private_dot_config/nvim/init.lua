@@ -14,7 +14,6 @@ vim.g.mapleader = " "
 
 require("options")
 require("filetype")
-
 require("lazy").setup({
     spec = {
         { import = "plugins" },
@@ -23,5 +22,6 @@ require("lazy").setup({
         enabled = false,
     },
 })
-
 require("keymaps")
+
+vim.cmd.colorscheme("kanagawa")

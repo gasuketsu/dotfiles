@@ -15,7 +15,7 @@
     "git@latest",
     "ghq@latest",
     "go@latest",
-    "herdr@0.9.3",
+    "herdr@latest",
     "httpie@latest",
     "hunk@latest",
     "jj-starship@latest",

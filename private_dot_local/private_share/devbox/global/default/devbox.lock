@@ -88,40 +88,40 @@
       }
     },
     "biome@latest": {
-      "last_modified": "2026-11-04T12:32:54Z",
-      "resolved": "github:NixOS/nixpkgs/13e53762c5afaf384d4614e94527a9ccfafe41d0#biome",
+      "last_modified": "2026-11-04T21:12:09Z",
+      "resolved": "github:NixOS/nixpkgs/6dadaf4375be35033e1c84395adbd53ff5fded96#biome",
       "source": "devbox-search",
-      "version": "2.5.15",
+      "version": "2.6.4",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/fmg7k10l2f94kgr4ch7bl816wy5ing0l-biome-2.5.15",
+              "path": "/nix/store/vvkh0bdi173c5c15bggr929pdkb5phc1-biome-2.6.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/fmg7k10l2f94kgr4ch7bl816wy5ing0l-biome-2.5.15"
+          "store_path": "/nix/store/vvkh0bdi173c5c15bggr929pdkb5phc1-biome-2.6.4"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/71ksfzs71rfacg1gxrhk7sf4pmzy83ry-biome-2.5.15",
+              "path": "/nix/store/hpg7p63grhyvlgdxjr29bvmwmw3y27pp-biome-2.6.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/71ksfzs71rfacg1gxrhk7sf4pmzy83ry-biome-2.5.15"
+          "store_path": "/nix/store/hpg7p63grhyvlgdxjr29bvmwmw3y27pp-biome-2.6.4"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ghz3dsl28iviprgbvgq6787l9lx3cjxi-biome-2.5.15",
+              "path": "/nix/store/cjf5wi7zpcr1nlq42y1v10rbhsnzkbch-biome-2.6.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/ghz3dsl28iviprgbvgq6787l9lx3cjxi-biome-2.5.15"
+          "store_path": "/nix/store/cjf5wi7zpcr1nlq42y1v10rbhsnzkbch-biome-2.6.4"
         }
       }
     },
@@ -482,50 +482,40 @@
       }
     },
     "ghq@latest": {
-      "last_modified": "2026-11-04T12:32:54Z",
-      "resolved": "github:NixOS/nixpkgs/13e53762c5afaf384d4614e94527a9ccfafe41d0#ghq",
+      "last_modified": "2026-11-04T21:12:09Z",
+      "resolved": "github:NixOS/nixpkgs/6dadaf4375be35033e1c84395adbd53ff5fded96#ghq",
       "source": "devbox-search",
-      "version": "1.10.1",
+      "version": "1.12.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/dvqz6d2fz7q8y0mx5hfpnz8zr1kkrg9l-ghq-1.10.1",
+              "path": "/nix/store/jqmaapnmqbxfxifdr1g7b56clx394yy4-ghq-1.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/dvqz6d2fz7q8y0mx5hfpnz8zr1kkrg9l-ghq-1.10.1"
+          "store_path": "/nix/store/jqmaapnmqbxfxifdr1g7b56clx394yy4-ghq-1.12.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/bzhrkq4ajcchvw8xfjff4qfzll7ijn4r-ghq-1.10.1",
+              "path": "/nix/store/8zhyhpkn4qia3z3m30n6sa33z70nrwjj-ghq-1.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/bzhrkq4ajcchvw8xfjff4qfzll7ijn4r-ghq-1.10.1"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/3f0s7sp891rzl217928zbn57b63mdlxb-ghq-1.10.1",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/3f0s7sp891rzl217928zbn57b63mdlxb-ghq-1.10.1"
+          "store_path": "/nix/store/8zhyhpkn4qia3z3m30n6sa33z70nrwjj-ghq-1.12.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/c63w3pj0kns5f4mfrgnijs2zc0knq1pp-ghq-1.10.1",
+              "path": "/nix/store/3fzid1gar2vjskbllx8b01xn4g58d87w-ghq-1.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/c63w3pj0kns5f4mfrgnijs2zc0knq1pp-ghq-1.10.1"
+          "store_path": "/nix/store/3fzid1gar2vjskbllx8b01xn4g58d87w-ghq-1.12.0"
         }
       }
     },
@@ -588,8 +578,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-11-04T12:32:54Z",
-      "resolved": "github:NixOS/nixpkgs/13e53762c5afaf384d4614e94527a9ccfafe41d0?lastModified=1793795574"
+      "last_modified": "2026-11-06T15:06:19Z",
+      "resolved": "github:NixOS/nixpkgs/4fe25e12eb9f4c744966dd3de5a05246cf098601?lastModified=1793977579"
     },
     "go@latest": {
       "last_modified": "2026-10-20T14:23:57Z",

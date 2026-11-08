@@ -3,7 +3,7 @@
   "packages": [
     "ast-grep@latest",
     "bat@latest",
-    "biome@latest",
+    "biome@2.6.4",
     "bun@latest",
     "bottom@latest",
     "clang-tools@latest",

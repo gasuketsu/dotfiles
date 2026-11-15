@@ -9,20 +9,20 @@ Install several required packages into your host as below.
 ### Debian/Ubuntu
 
 ```sh
-sudo apt install git zsh build-essential wl-clipboard curl zip unzip ncurses-term gettext-base
+sudo apt install git zsh build-essential wl-clipboard curl zip unzip ncurses-term gettext-base python3 python3-venv wget
 ```
 
 ### openSUSE
 
 ```sh
 sudo zypper install --no-recommends -t pattern devel_basis devel_C_C++
-sudo zypper install --no-recommends git zsh dirmngr wl-clipboard curl zip unzip terminfo
+sudo zypper install --no-recommends git zsh dirmngr wl-clipboard curl zip unzip terminfo python3-base wget
 ```
 
 ### archlinux
 
 ```sh
-sudo pacman -S base-devel git zsh zlib-ng wl-clipboard curl zip unzip
+sudo pacman -S base-devel git zsh zlib-ng wl-clipboard curl zip unzip python3 wget
 ```
 
 Also, install [chezmoi](https://www.chezmoi.io/) into your host.

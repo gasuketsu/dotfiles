@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+# mise/config.toml hash: {{ include "private_dot_config/mise/config.toml" | sha256sum }}
+
+eval "$(mise activate bash)"
+mise install --yes

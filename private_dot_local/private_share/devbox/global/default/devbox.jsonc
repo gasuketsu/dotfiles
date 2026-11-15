@@ -3,10 +3,10 @@
   "packages": [
     "ast-grep@latest",
     "bat@latest",
-    "biome@2.6.4",
     "bun@latest",
     "bottom@latest",
     "clang-tools@latest",
+    "chafa@latest",
     "conan@latest",
     "direnv@latest",
     "fastfetch@latest",
@@ -27,7 +27,6 @@
     "neovim@latest",
     "ninja@latest",
     "nodejs@26",
-    "opencode@2.2.1",
     "plocate@latest",
     "ripgrep@latest",
     "rustfmt@latest",
@@ -38,7 +37,6 @@
     "shfmt@latest",
     "starship@latest",
     "uv@latest",
-    "viu@latest",
     "yamlfmt@latest",
     "zellij@latest",
     "zoxide@latest"

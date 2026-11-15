@@ -1,6 +1,6 @@
 # dotfiles
 
-Manages dotfiles and devbox global packages with chezmoi.
+Manages dotfiles and tools with chezmoi.
 
 ## Prerequisites
 
@@ -41,8 +41,8 @@ chezmoi apply
 > [!NOTE]
 >
 > - Depending on your distro/environment, you may need to add `$HOME/.local/bin` to your PATH to run chezmoi.
-> - [Determinate Nix](https://determinate.systems/nix/) and [Devbox](https://www.jetify.com/devbox) will be
->   installed during initial `chezmoi apply` if not found.
+> - [Determinate Nix](https://determinate.systems/nix/), [Devbox](https://www.jetify.com/devbox), and
+>   [mise](https://mise.jdx.dev/) will be installed during initial `chezmoi apply` if not found.
 
 > [!TIP]
 > `.bashrc` is currently not managed, so make sure to source `~/.config/bash/config.bash`

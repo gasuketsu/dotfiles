@@ -2,5 +2,6 @@
 
 # mise/config.toml hash: {{ include "private_dot_config/mise/config.toml" | sha256sum }}
 
+eval "$(devbox global shellenv)"
 eval "$(mise activate bash)"
 mise install --yes

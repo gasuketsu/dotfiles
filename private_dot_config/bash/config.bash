@@ -13,4 +13,5 @@ if ! echo $PATH | grep -q "$HOME/.local/bin"; then
 fi
 
 eval "$(devbox global shellenv)"
+eval "$(mise activate bash)"
 eval "$(zoxide init bash)"

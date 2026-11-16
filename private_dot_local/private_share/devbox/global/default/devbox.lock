@@ -377,8 +377,8 @@
       }
     },
     "fastfetch@latest": {
-      "last_modified": "2026-11-12T14:50:34Z",
-      "resolved": "github:NixOS/nixpkgs/2074cc672349f14240fb7ea90d509e0b643e9dd4#fastfetch",
+      "last_modified": "2026-11-13T07:26:56Z",
+      "resolved": "github:NixOS/nixpkgs/e126e9e73c335158ff8279ac14d5f4afec153716#fastfetch",
       "source": "devbox-search",
       "version": "2.70.0",
       "systems": {
@@ -401,31 +401,31 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/4jrh0lxph6ln4wcm1xmmdlmgmk71p28f-fastfetch-2.70.0",
+              "path": "/nix/store/jainnya67d3l3lqrz598jnhm1b5lhabp-fastfetch-2.70.0",
               "default": true
             },
             {
               "name": "man",
-              "path": "/nix/store/zqnzidi212askj992g9k2fipqaq20d0z-fastfetch-2.70.0-man",
+              "path": "/nix/store/4q2z8lkxdzpc7qff7l6x780br581hkx2-fastfetch-2.70.0-man",
               "default": true
             }
           ],
-          "store_path": "/nix/store/4jrh0lxph6ln4wcm1xmmdlmgmk71p28f-fastfetch-2.70.0"
+          "store_path": "/nix/store/jainnya67d3l3lqrz598jnhm1b5lhabp-fastfetch-2.70.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/x5ycpj4d9phqd79zqynfh1j7xj94cr9b-fastfetch-2.70.0",
+              "path": "/nix/store/dwqr1jmh9lgb62pfycz8nbpp86ykc1vk-fastfetch-2.70.0",
               "default": true
             },
             {
               "name": "man",
-              "path": "/nix/store/3mkkjmzq1k57c0zld4p5jjpp19cppig6-fastfetch-2.70.0-man",
+              "path": "/nix/store/k3rrvicy11p0yy5hnq8idbfxig5g5vm9-fastfetch-2.70.0-man",
               "default": true
             }
           ],
-          "store_path": "/nix/store/x5ycpj4d9phqd79zqynfh1j7xj94cr9b-fastfetch-2.70.0"
+          "store_path": "/nix/store/dwqr1jmh9lgb62pfycz8nbpp86ykc1vk-fastfetch-2.70.0"
         }
       }
     },
@@ -617,8 +617,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-11-13T07:26:56Z",
-      "resolved": "github:NixOS/nixpkgs/e126e9e73c335158ff8279ac14d5f4afec153716?lastModified=1794554816"
+      "last_modified": "2026-11-14T08:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/5d2b81a7a3be3e2f832879028e4d60abbf58e9a0?lastModified=1794644783"
     },
     "go@latest": {
       "last_modified": "2026-11-12T14:50:34Z",

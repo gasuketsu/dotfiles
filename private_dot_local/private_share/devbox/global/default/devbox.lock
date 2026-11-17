@@ -125,6 +125,44 @@
         }
       }
     },
+    "broot@latest": {
+      "last_modified": "2026-11-14T08:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/5d2b81a7a3be3e2f832879028e4d60abbf58e9a0#broot",
+      "source": "devbox-search",
+      "version": "1.61.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jhsar3z679pic8lfcm0b7hzlyi4nc7b1-broot-1.61.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jhsar3z679pic8lfcm0b7hzlyi4nc7b1-broot-1.61.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gd1kkwpyw2ama7fnpbcz047lm72zqng3-broot-1.61.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gd1kkwpyw2ama7fnpbcz047lm72zqng3-broot-1.61.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b83qk1as8dazbqmj79cysfh8bxw9dywf-broot-1.61.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b83qk1as8dazbqmj79cysfh8bxw9dywf-broot-1.61.0"
+        }
+      }
+    },
     "bun@latest": {
       "last_modified": "2026-11-12T14:50:34Z",
       "resolved": "github:NixOS/nixpkgs/2074cc672349f14240fb7ea90d509e0b643e9dd4#bun",

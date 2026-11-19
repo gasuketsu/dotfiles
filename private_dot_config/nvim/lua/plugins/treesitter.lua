@@ -3,7 +3,6 @@ return {
         "romus204/tree-sitter-manager.nvim",
         dependencies = {
             { "windwp/nvim-ts-autotag" },
-            { "JoosepAlviste/nvim-ts-context-commentstring" },
             { "nvim-treesitter/nvim-treesitter-context" },
         },
         config = function()
@@ -51,9 +50,6 @@ return {
             })
             require("treesitter-context").setup()
             require("nvim-ts-autotag").setup()
-            require("ts_context_commentstring").setup({
-                enable_autocmd = false,
-            })
         end,
     },
 }

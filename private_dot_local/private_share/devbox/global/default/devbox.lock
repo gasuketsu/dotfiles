@@ -415,55 +415,55 @@
       }
     },
     "fastfetch@latest": {
-      "last_modified": "2026-11-13T07:26:56Z",
-      "resolved": "github:NixOS/nixpkgs/e126e9e73c335158ff8279ac14d5f4afec153716#fastfetch",
+      "last_modified": "2026-11-16T14:48:49Z",
+      "resolved": "github:NixOS/nixpkgs/e21fec321d73511849707a7585e4ea155ee4bf40#fastfetch",
       "source": "devbox-search",
-      "version": "2.70.0",
+      "version": "2.71.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/a7x3asm2bl3q13vlwq7zjiz2v2pz43iz-fastfetch-2.70.0",
+              "path": "/nix/store/dbicbvryi027kpyfbqp4mb8lnm834lcp-fastfetch-2.71.0",
               "default": true
             },
             {
               "name": "man",
-              "path": "/nix/store/72b03w738fdlp5vq0pwbsmfy8akrrj5n-fastfetch-2.70.0-man",
+              "path": "/nix/store/s5v6d58v7yvwz1rgjs1wlqll6h3zqjz1-fastfetch-2.71.0-man",
               "default": true
             }
           ],
-          "store_path": "/nix/store/a7x3asm2bl3q13vlwq7zjiz2v2pz43iz-fastfetch-2.70.0"
+          "store_path": "/nix/store/dbicbvryi027kpyfbqp4mb8lnm834lcp-fastfetch-2.71.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/jainnya67d3l3lqrz598jnhm1b5lhabp-fastfetch-2.70.0",
+              "path": "/nix/store/ppqldjgkrqij9icjxy5a6hjvzi1cl62s-fastfetch-2.71.0",
               "default": true
             },
             {
               "name": "man",
-              "path": "/nix/store/4q2z8lkxdzpc7qff7l6x780br581hkx2-fastfetch-2.70.0-man",
+              "path": "/nix/store/qcbf371ikl2q217pyl9mr71qi8nck52b-fastfetch-2.71.0-man",
               "default": true
             }
           ],
-          "store_path": "/nix/store/jainnya67d3l3lqrz598jnhm1b5lhabp-fastfetch-2.70.0"
+          "store_path": "/nix/store/ppqldjgkrqij9icjxy5a6hjvzi1cl62s-fastfetch-2.71.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/dwqr1jmh9lgb62pfycz8nbpp86ykc1vk-fastfetch-2.70.0",
+              "path": "/nix/store/i5pzqvga8kfvqgqw3bq0c3rap540z8w0-fastfetch-2.71.0",
               "default": true
             },
             {
               "name": "man",
-              "path": "/nix/store/k3rrvicy11p0yy5hnq8idbfxig5g5vm9-fastfetch-2.70.0-man",
+              "path": "/nix/store/dg8i3nsffyq6lq91x3ml7zq5ljfiw5h3-fastfetch-2.71.0-man",
               "default": true
             }
           ],
-          "store_path": "/nix/store/dwqr1jmh9lgb62pfycz8nbpp86ykc1vk-fastfetch-2.70.0"
+          "store_path": "/nix/store/i5pzqvga8kfvqgqw3bq0c3rap540z8w0-fastfetch-2.71.0"
         }
       }
     },
@@ -655,8 +655,8 @@
       }
     },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2026-11-14T08:26:23Z",
-      "resolved": "github:NixOS/nixpkgs/5d2b81a7a3be3e2f832879028e4d60abbf58e9a0?lastModified=1794644783"
+      "last_modified": "2026-11-16T14:48:49Z",
+      "resolved": "github:NixOS/nixpkgs/e21fec321d73511849707a7585e4ea155ee4bf40?lastModified=1794840529"
     },
     "go@latest": {
       "last_modified": "2026-11-12T14:50:34Z",
@@ -1012,8 +1012,8 @@
       }
     },
     "jujutsu@latest": {
-      "last_modified": "2026-11-12T14:50:34Z",
-      "resolved": "github:NixOS/nixpkgs/2074cc672349f14240fb7ea90d509e0b643e9dd4#jujutsu",
+      "last_modified": "2026-11-16T14:48:49Z",
+      "resolved": "github:NixOS/nixpkgs/e21fec321d73511849707a7585e4ea155ee4bf40#jujutsu",
       "source": "devbox-search",
       "version": "0.47.1",
       "systems": {
@@ -1021,43 +1021,43 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/3237ccdl1afkw9p6l2lp9136d8kc51iv-jujutsu-0.47.1",
+              "path": "/nix/store/jqv5sm0d983bg41r7k9xqqbvw7z0gh91-jujutsu-0.47.1",
               "default": true
             },
             {
               "name": "doc",
-              "path": "/nix/store/38n1mhi14yq4q8c6mjnflz278wcscx1r-jujutsu-0.47.1-doc"
+              "path": "/nix/store/ksnir35danaf8qphj05cizj3db0z7nq5-jujutsu-0.47.1-doc"
             }
           ],
-          "store_path": "/nix/store/3237ccdl1afkw9p6l2lp9136d8kc51iv-jujutsu-0.47.1"
+          "store_path": "/nix/store/jqv5sm0d983bg41r7k9xqqbvw7z0gh91-jujutsu-0.47.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/0yfv50kh3qa95dh6hii2bz2r724g9wxq-jujutsu-0.47.1",
+              "path": "/nix/store/v4071wr5pzxywwajjz280c8rdwcv7792-jujutsu-0.47.1",
               "default": true
             },
             {
               "name": "doc",
-              "path": "/nix/store/bihf0yljjyfi1d2x7f2j0fxz8jjj2jg9-jujutsu-0.47.1-doc"
+              "path": "/nix/store/1sb9lz8cpfaqmrq2rsw02f7jlwsj50h7-jujutsu-0.47.1-doc"
             }
           ],
-          "store_path": "/nix/store/0yfv50kh3qa95dh6hii2bz2r724g9wxq-jujutsu-0.47.1"
+          "store_path": "/nix/store/v4071wr5pzxywwajjz280c8rdwcv7792-jujutsu-0.47.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/vjcb9dmh46byd0w2cw7rqpwjdmc7zlg1-jujutsu-0.47.1",
+              "path": "/nix/store/66qgw69a6dqj1hm2l83pkpkr0cqayswy-jujutsu-0.47.1",
               "default": true
             },
             {
               "name": "doc",
-              "path": "/nix/store/pffvidi5l1mhihak83gj21icwxsgacr6-jujutsu-0.47.1-doc"
+              "path": "/nix/store/a773csnr7wzcmwx9392vjzfi22qmgg1i-jujutsu-0.47.1-doc"
             }
           ],
-          "store_path": "/nix/store/vjcb9dmh46byd0w2cw7rqpwjdmc7zlg1-jujutsu-0.47.1"
+          "store_path": "/nix/store/66qgw69a6dqj1hm2l83pkpkr0cqayswy-jujutsu-0.47.1"
         }
       }
     },

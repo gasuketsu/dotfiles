@@ -118,9 +118,6 @@ disabled = true
 [jj_bookmark]
 symbol = "󱗆 "
 
-[jj_change]
-format = "$change\\($commit\\) "
-
 [jj_metrics]
 disabled = true
 
